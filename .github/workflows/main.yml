@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: willowchung/github-actions
+        uses: willowchung/github-actions@v0.0.1
         with:
           who-to-greet: 'Willow'
       # Use the output from the `hello` step
