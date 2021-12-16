@@ -9,7 +9,7 @@ jobs:
         run: yarn install
       - name: Hello world action step
         id: hello
-        uses: willowchung/github-actions@v0.0.2
+        uses: willowchung/github-actions@v0.0.3
         with:
           who-to-greet: 'Willow'
       # Use the output from the `hello` step
