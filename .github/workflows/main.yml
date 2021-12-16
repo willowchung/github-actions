@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
+      - name: yarn
+        run: yarn install
       - name: Hello world action step
         id: hello
         uses: willowchung/github-actions@v0.0.1
